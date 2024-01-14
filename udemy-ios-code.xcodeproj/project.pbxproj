@@ -14,6 +14,7 @@
 		CD931A9A2B53830000DD420B /* udemy_ios_codeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD931A992B53830000DD420B /* udemy_ios_codeTests.swift */; };
 		CD931AA42B53830000DD420B /* udemy_ios_codeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD931AA32B53830000DD420B /* udemy_ios_codeUITests.swift */; };
 		CD931AA62B53830000DD420B /* udemy_ios_codeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD931AA52B53830000DD420B /* udemy_ios_codeUITestsLaunchTests.swift */; };
+		CDC7149B2B539BD80019E997 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC7149A2B539BD80019E997 /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CD931A9F2B53830000DD420B /* udemy-ios-codeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "udemy-ios-codeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD931AA32B53830000DD420B /* udemy_ios_codeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udemy_ios_codeUITests.swift; sourceTree = "<group>"; };
 		CD931AA52B53830000DD420B /* udemy_ios_codeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udemy_ios_codeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDC7149A2B539BD80019E997 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				CD931A882B5382FE00DD420B /* udemy_ios_codeApp.swift */,
 				CD931A8A2B5382FE00DD420B /* ContentView.swift */,
+				CDC7149A2B539BD80019E997 /* CustomButtonView.swift */,
 				CD931A8C2B53830000DD420B /* Assets.xcassets */,
 				CD931A8E2B53830000DD420B /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC7149B2B539BD80019E997 /* CustomButtonView.swift in Sources */,
 				CD931A8B2B5382FE00DD420B /* ContentView.swift in Sources */,
 				CD931A892B5382FE00DD420B /* udemy_ios_codeApp.swift in Sources */,
 			);

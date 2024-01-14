@@ -9,32 +9,47 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var userText = ""
+    @State var capMode = 1
+    
     var body: some View {
         VStack{
-            Image("bio")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .clipShape(Circle())
-                .frame(width: 200,height: 200)
-            Text("Berk Ilgar Ozalp")
-                .bold()
-                .font(.largeTitle)
-                .padding()
-            Text("Experience")
-                .bold()
-            Text("Experience")
-                .bold()
-            Text("Experience")
-                .bold()
-            Text("Experience")
-                .bold()
-            Text("Experience")
-                .bold()
+            if capMode == 1{
+                Text(userText.uppercased())
+                    .bold()
+                    
+            }
+            if capMode == 2{
+                Text(userText.capitalized)
+                    .bold()
+            }
+            if capMode == 3{
+                Text(userText.lowercased())
+                    .bold()
+            }
             
+            
+        
+            HStack{
+                Button(action: {capMode = 1 }){
+                    CustomButtonView(title: "All Caps", color: .green)
+                    
+                }
+                Button(action:{capMode = 2}){
+                    CustomButtonView(title: "First Letter", color: .green)
+                }
+                Button(action:{capMode = 3}){
+                    CustomButtonView(title: "Lower Case", color: .green)
+                }
+            }
+            .padding()
+            
+            Spacer()
+            
+            TextField("Please enter your prompt here", text: $userText)
+                .padding()
         }
-        Spacer()
-        
-        
     }
 }
 
