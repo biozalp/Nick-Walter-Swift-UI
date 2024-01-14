@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD931A892B5382FE00DD420B /* udemy_ios_codeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD931A882B5382FE00DD420B /* udemy_ios_codeApp.swift */; };
+		CD931A8B2B5382FE00DD420B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD931A8A2B5382FE00DD420B /* ContentView.swift */; };
+		CD931A8D2B53830000DD420B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD931A8C2B53830000DD420B /* Assets.xcassets */; };
+		CD931A902B53830000DD420B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD931A8F2B53830000DD420B /* Preview Assets.xcassets */; };
+		CD931A9A2B53830000DD420B /* udemy_ios_codeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD931A992B53830000DD420B /* udemy_ios_codeTests.swift */; };
+		CD931AA42B53830000DD420B /* udemy_ios_codeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD931AA32B53830000DD420B /* udemy_ios_codeUITests.swift */; };
+		CD931AA62B53830000DD420B /* udemy_ios_codeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD931AA52B53830000DD420B /* udemy_ios_codeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD931A962B53830000DD420B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD931A7D2B5382FE00DD420B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD931A842B5382FE00DD420B;
+			remoteInfo = "udemy-ios-code";
+		};
+		CD931AA02B53830000DD420B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD931A7D2B5382FE00DD420B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD931A842B5382FE00DD420B;
+			remoteInfo = "udemy-ios-code";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD931A852B5382FE00DD420B /* udemy-ios-code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "udemy-ios-code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD931A882B5382FE00DD420B /* udemy_ios_codeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udemy_ios_codeApp.swift; sourceTree = "<group>"; };
+		CD931A8A2B5382FE00DD420B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD931A8C2B53830000DD420B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD931A8F2B53830000DD420B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD931A952B53830000DD420B /* udemy-ios-codeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "udemy-ios-codeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD931A992B53830000DD420B /* udemy_ios_codeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udemy_ios_codeTests.swift; sourceTree = "<group>"; };
+		CD931A9F2B53830000DD420B /* udemy-ios-codeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "udemy-ios-codeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD931AA32B53830000DD420B /* udemy_ios_codeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udemy_ios_codeUITests.swift; sourceTree = "<group>"; };
+		CD931AA52B53830000DD420B /* udemy_ios_codeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udemy_ios_codeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD931A822B5382FE00DD420B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD931A922B53830000DD420B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD931A9C2B53830000DD420B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD931A7C2B5382FE00DD420B = {
+			isa = PBXGroup;
+			children = (
+				CD931A872B5382FE00DD420B /* udemy-ios-code */,
+				CD931A982B53830000DD420B /* udemy-ios-codeTests */,
+				CD931AA22B53830000DD420B /* udemy-ios-codeUITests */,
+				CD931A862B5382FE00DD420B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD931A862B5382FE00DD420B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD931A852B5382FE00DD420B /* udemy-ios-code.app */,
+				CD931A952B53830000DD420B /* udemy-ios-codeTests.xctest */,
+				CD931A9F2B53830000DD420B /* udemy-ios-codeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD931A872B5382FE00DD420B /* udemy-ios-code */ = {
+			isa = PBXGroup;
+			children = (
+				CD931A882B5382FE00DD420B /* udemy_ios_codeApp.swift */,
+				CD931A8A2B5382FE00DD420B /* ContentView.swift */,
+				CD931A8C2B53830000DD420B /* Assets.xcassets */,
+				CD931A8E2B53830000DD420B /* Preview Content */,
+			);
+			path = "udemy-ios-code";
+			sourceTree = "<group>";
+		};
+		CD931A8E2B53830000DD420B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD931A8F2B53830000DD420B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD931A982B53830000DD420B /* udemy-ios-codeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD931A992B53830000DD420B /* udemy_ios_codeTests.swift */,
+			);
+			path = "udemy-ios-codeTests";
+			sourceTree = "<group>";
+		};
+		CD931AA22B53830000DD420B /* udemy-ios-codeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD931AA32B53830000DD420B /* udemy_ios_codeUITests.swift */,
+				CD931AA52B53830000DD420B /* udemy_ios_codeUITestsLaunchTests.swift */,
+			);
+			path = "udemy-ios-codeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD931A842B5382FE00DD420B /* udemy-ios-code */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD931AA92B53830000DD420B /* Build configuration list for PBXNativeTarget "udemy-ios-code" */;
+			buildPhases = (
+				CD931A812B5382FE00DD420B /* Sources */,
+				CD931A822B5382FE00DD420B /* Frameworks */,
+				CD931A832B5382FE00DD420B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "udemy-ios-code";
+			productName = "udemy-ios-code";
+			productReference = CD931A852B5382FE00DD420B /* udemy-ios-code.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD931A942B53830000DD420B /* udemy-ios-codeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD931AAC2B53830000DD420B /* Build configuration list for PBXNativeTarget "udemy-ios-codeTests" */;
+			buildPhases = (
+				CD931A912B53830000DD420B /* Sources */,
+				CD931A922B53830000DD420B /* Frameworks */,
+				CD931A932B53830000DD420B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD931A972B53830000DD420B /* PBXTargetDependency */,
+			);
+			name = "udemy-ios-codeTests";
+			productName = "udemy-ios-codeTests";
+			productReference = CD931A952B53830000DD420B /* udemy-ios-codeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD931A9E2B53830000DD420B /* udemy-ios-codeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD931AAF2B53830000DD420B /* Build configuration list for PBXNativeTarget "udemy-ios-codeUITests" */;
+			buildPhases = (
+				CD931A9B2B53830000DD420B /* Sources */,
+				CD931A9C2B53830000DD420B /* Frameworks */,
+				CD931A9D2B53830000DD420B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD931AA12B53830000DD420B /* PBXTargetDependency */,
+			);
+			name = "udemy-ios-codeUITests";
+			productName = "udemy-ios-codeUITests";
+			productReference = CD931A9F2B53830000DD420B /* udemy-ios-codeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD931A7D2B5382FE00DD420B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					CD931A842B5382FE00DD420B = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					CD931A942B53830000DD420B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = CD931A842B5382FE00DD420B;
+					};
+					CD931A9E2B53830000DD420B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = CD931A842B5382FE00DD420B;
+					};
+				};
+			};
+			buildConfigurationList = CD931A802B5382FE00DD420B /* Build configuration list for PBXProject "udemy-ios-code" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD931A7C2B5382FE00DD420B;
+			productRefGroup = CD931A862B5382FE00DD420B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD931A842B5382FE00DD420B /* udemy-ios-code */,
+				CD931A942B53830000DD420B /* udemy-ios-codeTests */,
+				CD931A9E2B53830000DD420B /* udemy-ios-codeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD931A832B5382FE00DD420B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD931A902B53830000DD420B /* Preview Assets.xcassets in Resources */,
+				CD931A8D2B53830000DD420B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD931A932B53830000DD420B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD931A9D2B53830000DD420B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD931A812B5382FE00DD420B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD931A8B2B5382FE00DD420B /* ContentView.swift in Sources */,
+				CD931A892B5382FE00DD420B /* udemy_ios_codeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD931A912B53830000DD420B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD931A9A2B53830000DD420B /* udemy_ios_codeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD931A9B2B53830000DD420B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD931AA62B53830000DD420B /* udemy_ios_codeUITestsLaunchTests.swift in Sources */,
+				CD931AA42B53830000DD420B /* udemy_ios_codeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD931A972B53830000DD420B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD931A842B5382FE00DD420B /* udemy-ios-code */;
+			targetProxy = CD931A962B53830000DD420B /* PBXContainerItemProxy */;
+		};
+		CD931AA12B53830000DD420B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD931A842B5382FE00DD420B /* udemy-ios-code */;
+			targetProxy = CD931AA02B53830000DD420B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD931AA72B53830000DD420B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD931AA82B53830000DD420B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD931AAA2B53830000DD420B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"udemy-ios-code/Preview Content\"";
+				DEVELOPMENT_TEAM = 92QM789X7L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.udemy-ios-code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD931AAB2B53830000DD420B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"udemy-ios-code/Preview Content\"";
+				DEVELOPMENT_TEAM = 92QM789X7L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.udemy-ios-code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD931AAD2B53830000DD420B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92QM789X7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.udemy-ios-codeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/udemy-ios-code.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/udemy-ios-code";
+			};
+			name = Debug;
+		};
+		CD931AAE2B53830000DD420B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92QM789X7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.udemy-ios-codeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/udemy-ios-code.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/udemy-ios-code";
+			};
+			name = Release;
+		};
+		CD931AB02B53830000DD420B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92QM789X7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.udemy-ios-codeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "udemy-ios-code";
+			};
+			name = Debug;
+		};
+		CD931AB12B53830000DD420B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 92QM789X7L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.udemy-ios-codeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "udemy-ios-code";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD931A802B5382FE00DD420B /* Build configuration list for PBXProject "udemy-ios-code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD931AA72B53830000DD420B /* Debug */,
+				CD931AA82B53830000DD420B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD931AA92B53830000DD420B /* Build configuration list for PBXNativeTarget "udemy-ios-code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD931AAA2B53830000DD420B /* Debug */,
+				CD931AAB2B53830000DD420B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD931AAC2B53830000DD420B /* Build configuration list for PBXNativeTarget "udemy-ios-codeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD931AAD2B53830000DD420B /* Debug */,
+				CD931AAE2B53830000DD420B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD931AAF2B53830000DD420B /* Build configuration list for PBXNativeTarget "udemy-ios-codeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD931AB02B53830000DD420B /* Debug */,
+				CD931AB12B53830000DD420B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD931A7D2B5382FE00DD420B /* Project object */;
+}
