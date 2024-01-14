@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "146A8432-DC7A-40BA-9661-805337764332"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8563EEDE-24CC-46D5-B1AC-482A129845BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "udemy-ios-code/JournalEntryListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "8563EEDE-24CC-46D5-B1AC-482A129845BE - 46fe6323a170408a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (udemy_ios_code.JournalEntry) -&gt; SwiftUI.NavigationLink&lt;udemy_ios_code.JournalEntryRowView, udemy_ios_code.JournalDetailView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in udemy_ios_code.JournalEntryListView.body.getter : some"
+                  moduleName = "udemy-ios-code"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/berkilgarozalp/Documents/dev/journalEntryWithoutData/udemy-ios-code/JournalEntryListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "8563EEDE-24CC-46D5-B1AC-482A129845BE - ee6755d51c3b556"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; udemy_ios_code.JournalEntryRowView in closure #1 (udemy_ios_code.JournalEntry) -&gt; SwiftUI.NavigationLink&lt;udemy_ios_code.JournalEntryRowView, udemy_ios_code.JournalDetailView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in udemy_ios_code.JournalEntryListView.body.getter : some"
+                  moduleName = "udemy-ios-code"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/berkilgarozalp/Documents/dev/journalEntryWithoutData/udemy-ios-code/JournalEntryListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "8563EEDE-24CC-46D5-B1AC-482A129845BE - de0ad65e1a52c11f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in udemy_ios_code.JournalEntryListView.body.getter : some"
+                  moduleName = "udemy-ios-code"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/berkilgarozalp/Documents/dev/journalEntryWithoutData/udemy-ios-code/JournalEntryListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "8563EEDE-24CC-46D5-B1AC-482A129845BE - 46fe6323a170408a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (udemy_ios_code.JournalEntry) -&gt; SwiftUI.NavigationLink&lt;udemy_ios_code.JournalEntryRowView, udemy_ios_code.JournalDetailView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in udemy_ios_code.JournalEntryListView.body.getter : some"
+                  moduleName = "udemy-ios-code"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/berkilgarozalp/Documents/dev/journalEntryWithoutData/udemy-ios-code/JournalEntryListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "8563EEDE-24CC-46D5-B1AC-482A129845BE - 8203142778e1f9d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in udemy_ios_code.JournalEntryListView.body.getter : some"
+                  moduleName = "udemy-ios-code"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/berkilgarozalp/Documents/dev/udemy-ios-code/udemy-ios-code/JournalEntryListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "8563EEDE-24CC-46D5-B1AC-482A129845BE - 1af7a15ac3c3784d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (udemy_ios_code.JournalEntry) -&gt; SwiftUI.NavigationLink&lt;udemy_ios_code.JournalEntryRowView, udemy_ios_code.JournalDetailView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in udemy_ios_code.JournalEntryListView.body.getter : some"
+                  moduleName = "udemy-ios-code"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/berkilgarozalp/Documents/dev/udemy-ios-code/udemy-ios-code/JournalEntryListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "8563EEDE-24CC-46D5-B1AC-482A129845BE - 8203142778e1f9d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in udemy_ios_code.JournalEntryListView.body.getter : some"
+                  moduleName = "udemy-ios-code"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/berkilgarozalp/Documents/dev/udemy-ios-code/udemy-ios-code/JournalEntryListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  uuid = "8563EEDE-24CC-46D5-B1AC-482A129845BE - 1af7a15ac3c3784d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (udemy_ios_code.JournalEntry) -&gt; SwiftUI.NavigationLink&lt;udemy_ios_code.JournalEntryRowView, udemy_ios_code.JournalDetailView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in udemy_ios_code.JournalEntryListView.body.getter : some"
+                  moduleName = "udemy-ios-code"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/berkilgarozalp/Documents/dev/udemy-ios-code/udemy-ios-code/JournalEntryListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

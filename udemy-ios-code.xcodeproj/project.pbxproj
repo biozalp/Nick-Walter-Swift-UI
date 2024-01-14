@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD931A892B5382FE00DD420B /* udemy_ios_codeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD931A882B5382FE00DD420B /* udemy_ios_codeApp.swift */; };
-		CD931A8B2B5382FE00DD420B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD931A8A2B5382FE00DD420B /* ContentView.swift */; };
+		CD5BAD6A2B541D1000E963B3 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BAD692B541D1000E963B3 /* JournalEntry.swift */; };
+		CD5BAD6C2B54256B00E963B3 /* JournalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BAD6B2B54256A00E963B3 /* JournalDetailView.swift */; };
+		CD5BAD6E2B54357400E963B3 /* JournalEntryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BAD6D2B54357400E963B3 /* JournalEntryRowView.swift */; };
+		CD931A8B2B5382FE00DD420B /* JournalEntryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD931A8A2B5382FE00DD420B /* JournalEntryListView.swift */; };
 		CD931A8D2B53830000DD420B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD931A8C2B53830000DD420B /* Assets.xcassets */; };
 		CD931A902B53830000DD420B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD931A8F2B53830000DD420B /* Preview Assets.xcassets */; };
 		CD931A9A2B53830000DD420B /* udemy_ios_codeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD931A992B53830000DD420B /* udemy_ios_codeTests.swift */; };
 		CD931AA42B53830000DD420B /* udemy_ios_codeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD931AA32B53830000DD420B /* udemy_ios_codeUITests.swift */; };
 		CD931AA62B53830000DD420B /* udemy_ios_codeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD931AA52B53830000DD420B /* udemy_ios_codeUITestsLaunchTests.swift */; };
-		CDC7149B2B539BD80019E997 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC7149A2B539BD80019E997 /* CustomButtonView.swift */; };
+		CDA47A1F2B54493900D24A1A /* CreateJournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA47A1E2B54493900D24A1A /* CreateJournalEntryView.swift */; };
+		CDA47A212B54672B00D24A1A /* JournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA47A202B54672B00D24A1A /* JournalApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD5BAD692B541D1000E963B3 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		CD5BAD6B2B54256A00E963B3 /* JournalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailView.swift; sourceTree = "<group>"; };
+		CD5BAD6D2B54357400E963B3 /* JournalEntryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryRowView.swift; sourceTree = "<group>"; };
 		CD931A852B5382FE00DD420B /* udemy-ios-code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "udemy-ios-code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD931A882B5382FE00DD420B /* udemy_ios_codeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udemy_ios_codeApp.swift; sourceTree = "<group>"; };
-		CD931A8A2B5382FE00DD420B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD931A8A2B5382FE00DD420B /* JournalEntryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryListView.swift; sourceTree = "<group>"; };
 		CD931A8C2B53830000DD420B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD931A8F2B53830000DD420B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD931A952B53830000DD420B /* udemy-ios-codeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "udemy-ios-codeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +50,8 @@
 		CD931A9F2B53830000DD420B /* udemy-ios-codeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "udemy-ios-codeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD931AA32B53830000DD420B /* udemy_ios_codeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udemy_ios_codeUITests.swift; sourceTree = "<group>"; };
 		CD931AA52B53830000DD420B /* udemy_ios_codeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udemy_ios_codeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CDC7149A2B539BD80019E997 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		CDA47A1E2B54493900D24A1A /* CreateJournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJournalEntryView.swift; sourceTree = "<group>"; };
+		CDA47A202B54672B00D24A1A /* JournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +102,12 @@
 		CD931A872B5382FE00DD420B /* udemy-ios-code */ = {
 			isa = PBXGroup;
 			children = (
-				CD931A882B5382FE00DD420B /* udemy_ios_codeApp.swift */,
-				CD931A8A2B5382FE00DD420B /* ContentView.swift */,
-				CDC7149A2B539BD80019E997 /* CustomButtonView.swift */,
+				CDA47A202B54672B00D24A1A /* JournalApp.swift */,
+				CD931A8A2B5382FE00DD420B /* JournalEntryListView.swift */,
+				CD5BAD6D2B54357400E963B3 /* JournalEntryRowView.swift */,
+				CD5BAD692B541D1000E963B3 /* JournalEntry.swift */,
+				CD5BAD6B2B54256A00E963B3 /* JournalDetailView.swift */,
+				CDA47A1E2B54493900D24A1A /* CreateJournalEntryView.swift */,
 				CD931A8C2B53830000DD420B /* Assets.xcassets */,
 				CD931A8E2B53830000DD420B /* Preview Content */,
 			);
@@ -260,9 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDC7149B2B539BD80019E997 /* CustomButtonView.swift in Sources */,
-				CD931A8B2B5382FE00DD420B /* ContentView.swift in Sources */,
-				CD931A892B5382FE00DD420B /* udemy_ios_codeApp.swift in Sources */,
+				CD5BAD6E2B54357400E963B3 /* JournalEntryRowView.swift in Sources */,
+				CD5BAD6A2B541D1000E963B3 /* JournalEntry.swift in Sources */,
+				CD931A8B2B5382FE00DD420B /* JournalEntryListView.swift in Sources */,
+				CDA47A212B54672B00D24A1A /* JournalApp.swift in Sources */,
+				CD5BAD6C2B54256B00E963B3 /* JournalDetailView.swift in Sources */,
+				CDA47A1F2B54493900D24A1A /* CreateJournalEntryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
