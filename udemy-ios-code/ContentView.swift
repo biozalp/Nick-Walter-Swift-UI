@@ -10,9 +10,31 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Merhaba cnm")
+        VStack{
+            Image("bio")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .clipShape(Circle())
+                .frame(width: 200,height: 200)
+            Text("Berk Ilgar Ozalp")
+                .bold()
+                .font(.largeTitle)
+                .padding()
+            Text("Experience")
+                .bold()
+            Text("Experience")
+                .bold()
+            Text("Experience")
+                .bold()
+            Text("Experience")
+                .bold()
+            Text("Experience")
+                .bold()
+            
         }
+        Spacer()
+        
+        
     }
 }
 
